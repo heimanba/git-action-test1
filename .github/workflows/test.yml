@@ -1,5 +1,11 @@
 name: 'build-test'
 on: # rebuild any PRs and main branch changes
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'debug'
   pull_request:
   push:
     branches:
