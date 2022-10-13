@@ -1,7 +1,6 @@
 # Auto label
 
 If your label is `[bug] The title have problem`, then the action will be add a 'bug' label for it.
-
 This is simply used to explore the use of action. The current version is not recommended for use in a production environment.
 ## Usabe
 
