@@ -6,7 +6,6 @@ This is simply used to explore the use of action. The current version is not rec
 
 ## Usabe
 
-
 ```yaml
 name: 'On issue'
 on:
