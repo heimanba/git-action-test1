@@ -21,7 +21,7 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
       - uses: actions/checkout@v3
       - run: |
-          npm install
+          npm installs
       - run: |
           npm run all
   test: # make sure the action works on a clean machine without building
